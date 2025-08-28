@@ -1,0 +1,36 @@
+{
+  "project_info": {
+    "project_number": "931950277620",
+    "project_id": "idlegear-d9de6",
+    "storage_bucket": "idlegear-d9de6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:931950277620:ios:16e603e9623c3d577a7fa1",
+        "android_client_info": {
+          "package_name": "com.biruisred.idlegear"
+        }
+      },
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqQsaGj8i3llp2Mz9SD0vS-rmI0Fy0ErM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 0
+        },
+        "appinvite_service": {
+          "status": 1
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "931950277620-gar7q0ir3fni1pf4cdavcqf5bgf95buj.apps.googleusercontent.com"
+        }
+      ]
+    }
+  ],
+  "configuration_version": "1"
+}

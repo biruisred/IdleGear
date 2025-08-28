@@ -240,7 +240,7 @@ MonoBehaviour:
   m_StartCorner: 0
   m_StartAxis: 0
   m_CellSize: {x: 100, y: 100}
-  m_Spacing: {x: 0, y: 0}
+  m_Spacing: {x: 3, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
 --- !u!1 &57510467
@@ -703,7 +703,6 @@ GameObject:
   m_Component:
   - component: {fileID: 652972388}
   - component: {fileID: 652972387}
-  - component: {fileID: 652972386}
   m_Layer: 0
   m_Name: Managers
   m_TagString: Untagged
@@ -711,19 +710,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &652972386
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 652972385}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f96a03d15ba7c64483ddd83bfda06dc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: IdleGear.UI::IdleGear.UI.UIManager
-  uiDocument: {fileID: 0}
 --- !u!114 &652972387
 MonoBehaviour:
   m_ObjectHideFlags: 0
