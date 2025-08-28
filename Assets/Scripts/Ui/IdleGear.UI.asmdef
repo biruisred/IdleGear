@@ -1,0 +1,16 @@
+{
+    "name": "IdleGear.UI",
+    "rootNamespace": "IdleGear.UI",
+    "references": [
+        "GUID:e8c318aa7340d1d4a8b189a696a418bf"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

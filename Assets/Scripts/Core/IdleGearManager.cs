@@ -1,8 +1,9 @@
+using BiruisredEngine;
 using UnityEngine;
 
 namespace IdleGear
 {
-    public class IdleGearManager : MonoBehaviour
+    public class IdleGearManager : GameManager
     {
         
     }
