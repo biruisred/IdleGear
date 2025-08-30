@@ -2,7 +2,6 @@
 
 namespace IdleGear.Core
 {
-
     public readonly struct HealthChanged : IEvent
     {
         public HealthChanged(int currentAmount, int deltaAmount)

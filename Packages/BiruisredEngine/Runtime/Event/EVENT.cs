@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine;
 
 namespace BiruisredEngine
 {
@@ -13,15 +14,6 @@ namespace BiruisredEngine
         {
             _baseHandlers.Clear();
             _enumeratorHandlers.Clear();
-            
-            var assemblies = AppDomain.CurrentDomain.GetAssemblies();
-            foreach (var assembly in assemblies)
-            {
-                foreach (var type in assembly.GetTypes())
-                {
-                    CollectEventFromType(type);
-                }
-            }
         }
 
         internal static void CollectEventFromType(Type type)
@@ -250,8 +242,5 @@ namespace BiruisredEngine
         }
     }
 
-    public static class Extension
-    {
-
-    }
+    public static class Extension { }
 }
