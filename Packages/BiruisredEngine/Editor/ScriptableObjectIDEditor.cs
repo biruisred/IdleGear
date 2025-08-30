@@ -1,17 +1,23 @@
+﻿using Sirenix.OdinInspector.Editor;
 using UnityEditor;
-using UnityEngine;
 
 namespace BiruisredEngine.Editor
 {
-    [CustomEditor(typeof(ScriptableObjectID))]
-    public class ScriptableObjectIDEditor : UnityEditor.Editor
+    [CustomEditor(typeof(ScriptableObjectID), true)]
+    public class ScriptableObjectIDEditor : OdinEditor
     {
-        
-        
-        private void OnEnable()
+        protected override void OnEnable()
         {
             var scriptableObjectID = (ScriptableObjectID)target;
-            Debug.Log(scriptableObjectID.GetValue<int>("_id"));            
+            var guid  = AssetDatabase.AssetPathToGUID(AssetDatabase.GetAssetPath(scriptableObjectID));
+            if (guid != scriptableObjectID.ID)
+            {
+                scriptableObjectID.SetValue("id", guid);
+                EditorUtility.SetDirty(scriptableObjectID);
+                AssetDatabase.SaveAssetIfDirty(scriptableObjectID);
+            }
+            
+            base.OnEnable();
         }
     }
 }
