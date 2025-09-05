@@ -58,7 +58,7 @@ namespace BiruisredEngine
             var userId = PlayerPrefs.GetString("default.userId", Guid.NewGuid().ToString());
             // Store the user ID for future retrieval.
             PlayerPrefs.SetString("default.userId", userId);
-            return UniTask.FromResult(new User(userId, Application.productName, false));
+            return UniTask.FromResult(new User(userId, "Player Test", false));
         }
     }
     

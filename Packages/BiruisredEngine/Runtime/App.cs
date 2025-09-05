@@ -9,7 +9,6 @@ namespace BiruisredEngine
         protected virtual void Awake() {
             SYSTEM.App = this;
             SYSTEM.Create();
-            print(SYSTEM.User == null);
         }
 
         protected virtual IEnumerator Start() {

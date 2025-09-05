@@ -1,0 +1,29 @@
+{
+    "asset": "46253d02a7545db44bc6ed280637adc8",
+    "fileName": "019915a1-2b4a-7bed-bb4d-c8127c089703.jpg",
+    "prompt": "rpg character portrait",
+    "negativePrompt": "",
+    "model": "94c4260f-b988-40e7-b3d3-435b9f449bd0",
+    "modelName": "Flux.1 Dev",
+    "customSeed": -1,
+    "w3CTraceId": "b990bedbb0fc3b37e69fc16b74c8f046",
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "c08cdc8806323e046a6f4a57b6ea894c"
+            }
+        ]
+    },
+    "upscaleFactor": 0
+}

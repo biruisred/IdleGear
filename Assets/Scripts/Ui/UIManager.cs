@@ -1,22 +1,27 @@
 using BiruisredEngine;
-using Sirenix.OdinInspector;
 using UnityEngine;
 
-namespace IdleGear.UI
+namespace IdleGear
 {
     public class UIManager : MonoBehaviour
     {
-        public string id;
+        [SerializeField] private TMPro.TextMeshProUGUI usernameText;
+        [SerializeField] private TMPro.TextMeshProUGUI goldText;
 
-        [Button]
-        public void GenerateId()
+        private void Start()
         {
-            id = IDGenerator.Generate();
+            Initialize();
         }
-    }
 
-    public class PageView : MonoBehaviour
-    {
-        
+        private void Initialize()
+        {
+            EVENT.AddListener<PlayerInit>(OnPlayerInit);
+        }
+
+        private void OnPlayerInit(PlayerInit evt)
+        {
+            usernameText.text = evt.PlayerName;
+            goldText.text = evt.GoldAmount.ToString();
+        }
     }
 }

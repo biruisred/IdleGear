@@ -1,0 +1,29 @@
+{
+    "asset": "67cd339c167bf6540b9ec7f3e4dbc05f",
+    "fileName": "019915b5-90e4-7421-be84-3d50779770a9.jpg",
+    "prompt": "rpg merchan portrait",
+    "negativePrompt": "",
+    "model": "94c4260f-b988-40e7-b3d3-435b9f449bd0",
+    "modelName": "Flux.1 Dev",
+    "customSeed": -1,
+    "w3CTraceId": "c7168deb901fc8fda78004d3018e8bf8",
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "3d75f9e655c5ae34da9c83ef2e31d3c5"
+            }
+        ]
+    },
+    "upscaleFactor": 0
+}
